@@ -9,6 +9,10 @@
     font-family: 'roboto-light';
     src: url(../Fonts/Roboto-Light.ttf);
 }
+@font-face {
+    font-family: 'roboto-bold';
+    src: url(../Fonts/Roboto-Bold.ttf);
+}
 
 
 .nav-main {
@@ -99,4 +103,127 @@
     width: 175px;
     font-size: 1.5rem;
     color: #FFFFFF;
+}
+
+.body-right-content {
+    margin-top: -780px;
+    margin-left: 620px;
+}
+
+.start-text {
+    font-family: 'roboto-bold';
+    font-size: 24px;
+}
+
+.get-start-text {
+    margin-top: 10px;
+    font-size: 15.04px;
+    color: #7E7E7E;
+
+}
+.ds{
+    margin-left: -10rem;
+}
+
+.app-btns {
+    display: flex;
+    text-align: center;
+    gap: 15px;
+    margin-top: 40px;
+}
+
+.google-btn {
+    border-radius: 0.5rem;
+    border: 1px solid #20DC49;
+    background: #FFF;
+    gap: 8px;
+    padding: 7px 12px;
+    width: 126px;
+    height: 44px;
+}
+
+.google-text {
+    font-size: 1.2rem;
+    font-family: 'roboto-medium';
+}
+
+.facebook-btn {
+    border-radius: 0.5rem;
+    border: 1px solid #DEDEDE;
+    background: #FFF;
+    gap: 8px;
+    padding: 7px 12px;
+    width: 126px;
+    height: 44px;
+}
+
+.text-with-lines {
+    text-align: center;
+    margin-top: 1.3rem;
+    margin-left: -5.4rem;
+    gap: 1.1rem;
+}
+
+.continue-text{
+    font-size: 1.3rem;
+}
+
+
+.box-regestering {
+    text-align: center;
+    margin-top: 5px;
+    margin-left: -5.4rem;
+}
+
+.full-name-btn {
+    border-radius: 1rem;
+    border: 1px solid #D9D9D9;
+    background: #FFF;
+    width: 400px;
+    height: 70px;
+    
+    padding: 20px 100px;
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+.full-name-text {
+    color: #5A5A5A;
+    font-size: 14px;
+    margin-top: 5px;
+    margin-left: -270px;
+}
+
+.confirm-text {
+    color: #5A5A5A;
+    font-size: 14px;
+    margin-top: 5px;
+    margin-left: -228px;
+}
+
+.create-accoount-btn {
+    width: 400px;
+    height: 57.75px;
+    background-color: #20DC49;
+    border-radius: 10px;
+    border: none;
+    padding: 20px 100px;
+    margin-top: 2.8rem;
+    margin-left: -5.4rem;
+}
+
+.create-account-test {
+    font-size: 14.85px;
+    margin-top: -1px;
+}
+
+.last-sentense {
+    color: #5A5A5A;
+    font-family: 'roboto-light';
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.45rem;
+    margin-top: 5.63rem;
+    margin-left: -8rem;
 }
