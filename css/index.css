@@ -1,0 +1,53 @@
+@import url(./reset.css);
+@import url(./bootstrap.css);
+
+@font-face {
+    font-family: 'roboto-medium';
+    src: url(../Fonts/Roboto-Medium.ttf);
+}
+@font-face {
+    font-family: 'roboto-light';
+    src: url(../Fonts/Roboto-Light.ttf);
+}
+
+
+.nav-main {
+    display: flex;
+    background-image: url(../img/background.png);
+    background-repeat: no-repeat;
+    margin: -8px; 
+    width: 1440px;
+    height: 900px;  
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    gap: 1100px;
+    padding-left: 5.8rem;
+    padding-top: 4.8rem;
+}
+
+.logo-icon {
+    display: flex;
+    gap: 11.27px;
+    
+}
+
+.logo-text {
+    font-size: 16.93px;
+}
+
+.sign-up {
+    display: flex;
+    gap: 5px;
+}
+
+.nav-question {
+    font-size: 14px;
+}
+
+.nav-sign {
+    font-size: 14px;
+    color: #20DC49;
+}
